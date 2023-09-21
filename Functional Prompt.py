@@ -65,7 +65,7 @@ class SebulbasPod(Podracer):
   def flame_jet(self):
     self.condition = "trashed"
 
-third_pod = SebulbasPod("", "Good", "")
+third_pod = SebulbasPod("", "Very Good", "")
 print(third_pod.flame_jet())
 print(third_pod.condition)
 
